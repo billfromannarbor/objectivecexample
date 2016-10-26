@@ -7,11 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Baker.h"
+#import "BetterBaker.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Baker* baker = [Baker new];
+        NSLog(@"makepi %f", [baker makePie]);
+        BetterBaker* betterBaker = [BetterBaker new];
+        NSLog(@"makepi better %f", [betterBaker makePie]);
     }
     return 0;
 }

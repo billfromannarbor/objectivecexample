@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CA66F4A41DC03AC5005B41A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA66F4A31DC03AC5005B41A5 /* main.m */; };
+		CA66F4AD1DC167C5005B41A5 /* Baker.m in Sources */ = {isa = PBXBuildFile; fileRef = CA66F4AC1DC167C5005B41A5 /* Baker.m */; };
+		CA66F4B01DC16B3B005B41A5 /* BetterBaker.m in Sources */ = {isa = PBXBuildFile; fileRef = CA66F4AF1DC16B3B005B41A5 /* BetterBaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		CA66F4A01DC03AC5005B41A5 /* objectivecexample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = objectivecexample; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA66F4A31DC03AC5005B41A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA66F4AA1DC165EC005B41A5 /* BakerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BakerProtocol.h; sourceTree = "<group>"; };
+		CA66F4AB1DC167C5005B41A5 /* Baker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baker.h; sourceTree = "<group>"; };
+		CA66F4AC1DC167C5005B41A5 /* Baker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Baker.m; sourceTree = "<group>"; };
+		CA66F4AE1DC16B3B005B41A5 /* BetterBaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterBaker.h; sourceTree = "<group>"; };
+		CA66F4AF1DC16B3B005B41A5 /* BetterBaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetterBaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +48,11 @@
 		CA66F4971DC03AC5005B41A5 = {
 			isa = PBXGroup;
 			children = (
+				CA66F4AE1DC16B3B005B41A5 /* BetterBaker.h */,
+				CA66F4AF1DC16B3B005B41A5 /* BetterBaker.m */,
+				CA66F4AB1DC167C5005B41A5 /* Baker.h */,
+				CA66F4AC1DC167C5005B41A5 /* Baker.m */,
+				CA66F4AA1DC165EC005B41A5 /* BakerProtocol.h */,
 				CA66F4A21DC03AC5005B41A5 /* objectivecexample */,
 				CA66F4A11DC03AC5005B41A5 /* Products */,
 			);
@@ -120,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA66F4B01DC16B3B005B41A5 /* BetterBaker.m in Sources */,
+				CA66F4AD1DC167C5005B41A5 /* Baker.m in Sources */,
 				CA66F4A41DC03AC5005B41A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,6 +231,7 @@
 		CA66F4A81DC03AC5005B41A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				DEVELOPMENT_TEAM = MT65326S29;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -225,6 +240,7 @@
 		CA66F4A91DC03AC5005B41A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				DEVELOPMENT_TEAM = MT65326S29;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
