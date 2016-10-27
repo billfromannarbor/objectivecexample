@@ -10,6 +10,7 @@
 		CA66F4A41DC03AC5005B41A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA66F4A31DC03AC5005B41A5 /* main.m */; };
 		CA66F4AD1DC167C5005B41A5 /* Baker.m in Sources */ = {isa = PBXBuildFile; fileRef = CA66F4AC1DC167C5005B41A5 /* Baker.m */; };
 		CA66F4B01DC16B3B005B41A5 /* BetterBaker.m in Sources */ = {isa = PBXBuildFile; fileRef = CA66F4AF1DC16B3B005B41A5 /* BetterBaker.m */; };
+		CA66F4B31DC183CE005B41A5 /* BetterBaker+OffLoadWork.m in Sources */ = {isa = PBXBuildFile; fileRef = CA66F4B21DC183CE005B41A5 /* BetterBaker+OffLoadWork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		CA66F4AC1DC167C5005B41A5 /* Baker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Baker.m; sourceTree = "<group>"; };
 		CA66F4AE1DC16B3B005B41A5 /* BetterBaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetterBaker.h; sourceTree = "<group>"; };
 		CA66F4AF1DC16B3B005B41A5 /* BetterBaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetterBaker.m; sourceTree = "<group>"; };
+		CA66F4B11DC183CE005B41A5 /* BetterBaker+OffLoadWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BetterBaker+OffLoadWork.h"; sourceTree = "<group>"; };
+		CA66F4B21DC183CE005B41A5 /* BetterBaker+OffLoadWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BetterBaker+OffLoadWork.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				CA66F4A31DC03AC5005B41A5 /* main.m */,
+				CA66F4B11DC183CE005B41A5 /* BetterBaker+OffLoadWork.h */,
+				CA66F4B21DC183CE005B41A5 /* BetterBaker+OffLoadWork.m */,
 			);
 			path = objectivecexample;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA66F4B31DC183CE005B41A5 /* BetterBaker+OffLoadWork.m in Sources */,
 				CA66F4B01DC16B3B005B41A5 /* BetterBaker.m in Sources */,
 				CA66F4AD1DC167C5005B41A5 /* Baker.m in Sources */,
 				CA66F4A41DC03AC5005B41A5 /* main.m in Sources */,

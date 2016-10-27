@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Baker.h"
-#import "BetterBaker.h"
+#import "BetterBaker+OffLoadWork.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -16,6 +16,8 @@ int main(int argc, const char * argv[]) {
         NSLog(@"makepi %f", [baker makePie]);
         BetterBaker* betterBaker = [BetterBaker new];
         NSLog(@"makepi better %f", [betterBaker makePie]);
+        NSLog(@"makebread better %d", [betterBaker makeBread]);
+       
     }
     return 0;
 }
